@@ -32,8 +32,7 @@ var newPromise= new Promise((accept, reject) => {
         console.log(error);
     })
 
-    newPromise
-    .then
+   
     
 
 
