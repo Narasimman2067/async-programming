@@ -55,3 +55,10 @@ body{
     font-weight: bold;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.button{
+    border:2px solid red;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    height: 10px;
+}
