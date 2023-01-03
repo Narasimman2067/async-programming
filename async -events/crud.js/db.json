@@ -1,30 +1,50 @@
-[
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "students": [
     {
       "name": "name 1",
       "class": "class 1",
       "country": "country 1",
-      "image": "image 1",
+      "image": "https://websites.umich.edu/~chemh215/W11HTML/SSG5/ssg5.2/FRex.png",
       "id": "1"
     },
     {
       "name": "name 2",
       "class": "class 2",
       "country": "country 2",
-      "image": "image 2",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8t5dHD-BcXAvHvA4XIm-cNXfPLO4MWt6gKKIQwgom--CtFW0HAB7C_lK7ZyAMXqwkBEg&usqp=CAU",
       "id": "2"
     },
     {
       "name": "name 3",
       "class": "class 3",
       "country": "country 3",
-      "image": "image 3",
+      "image": "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=400",
       "id": "3"
     },
     {
       "name": "name 4",
       "class": "class 4",
       "country": "country 4",
-      "image": "image 4",
-      "id": "4"
+      "image": "https://images.pexels.com/photos/326212/pexels-photo-326212.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "id": "4",
+      "like": null
     }
-  ]
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
