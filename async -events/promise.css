@@ -31,7 +31,7 @@ body{
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));  
-    /* grid-template-columns: repeat(4, 1fr); */
+    /* grid-template-columns: repeat(4,50%); */
     gap:1rem;
 }
 
@@ -61,4 +61,15 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bolder;
     height: 10px;
+}
+
+@media (max-width:900px){
+    body{
+        background-color: orange;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(3,30%);
+        height: 100%;
+        /* grid-template-columns: repeat(auto-fit, minmax(4,40%));   */
+    }
 }
